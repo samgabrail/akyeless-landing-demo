@@ -1,6 +1,10 @@
 #!/usr/bin/bash
 sudo apt-get update -y
 
+curl -o akeyless https://akeyless-cli.s3.us-east-2.amazonaws.com/cli/latest/production/cli-linux-amd64
+chmod +x akeyless
+sudo mv akeyless /usr/bin
+
 sudo git clone https://github.com/ahmetb/kubectx /opt/kubectx
 sudo ln -s /opt/kubectx/kubectx /usr/local/bin/kubectx
 sudo ln -s /opt/kubectx/kubens /usr/local/bin/kubens
