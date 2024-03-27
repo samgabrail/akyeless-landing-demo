@@ -160,3 +160,4 @@ cython_debug/
 #.idea/
 customer_fragments.json
 values.yaml
+customer-fragments-secret.yaml
