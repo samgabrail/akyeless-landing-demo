@@ -161,3 +161,6 @@ cython_debug/
 customer_fragments.json
 values.yaml
 customer-fragments-secret.yaml
+customer_fragment_baremetal_k3s.json
+private.key
+baremetal-k3s-gateway-config/certificate.crt
